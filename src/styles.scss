@@ -37,7 +37,7 @@
     --secondary-hover-color: rgb(244, 210, 210);
     --secondary-focus-color: #E67E22;
     //Darkmode Color
-    --text-color: #EAEAEA;
+    --text-color: rgb(207, 207, 207);
     --text-color-secondary: #CCCCCC;
     /*Darkmode Randfarben */
     --main-border-color: #5E5A5A;
@@ -101,6 +101,8 @@ body {
     height: 100vh;
 }
 
+app-content,
+app-hero-section,
 app-main,
 .d-grow {
     flex-grow: 1;
@@ -108,6 +110,7 @@ app-main,
     min-width: 1px
 }
 
+app-content,
 app-main {
     display: flex;
 }
